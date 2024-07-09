@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.search-input {
+    padding: 10px 15px;
+    width: 300px;
+}
+
+.search-button {
+    background-color: rgb(61, 190, 143);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.search-button:hover {
+    background-color: #46a4ae;
+}
